@@ -2,6 +2,7 @@ html, body {
 	font-family: Tahoma, serif;
 	/*takes out white gaps around whole page*/
 	margin: 0;
+	/*padding: 0;*/
 }
 	header {
 	background-color: #FFF4D9;
@@ -27,9 +28,9 @@ header img {
 
 .content {
 	max-width: 900px;
-	margin: 0 auto;
+	margin: 10px 30px;
 	background-color: #B3D8FF;
-	padding: 0 20px;
+	padding: 0px 15px;
 }
 
 img.big-image {
@@ -51,5 +52,9 @@ ul {
 a {
 	color: royalblue;
 	text-decoration: none;
+}
 
+footer {
+	padding: 40px 20px;
+	background-color: snow;
 }
