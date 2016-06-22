@@ -1,0 +1,25 @@
+header {
+	background-color: #FFF4D9;
+	/*All padding the same*/
+	padding: 40px;
+	/*Top/bottom 20px, right/left 40px*/
+	/*padding: 20 40px;*/
+	text-align: center;
+}
+
+h1 {
+	font-size: 90px;
+	color: gold;
+}
+
+header img {
+	/*Rounds image borders*/
+	border-radius: 180px;
+	width: 270px;
+	height: 10px;
+}
+
+/*<header>
+			<img src="https://neillsblog.files.wordpress.com/2013/01/belle.png">
+			<h1>Belle</h1>
+		</header>*/
