@@ -8,6 +8,12 @@
 				font-size: 90px;
 				text-decoration: underline;
 			}
+
+			/*ID has bigger weight than class*/
+			#first{
+				font-size: 150px;
+			}	
+
 			.small {
 				font-size: 12px;
 			}
@@ -15,13 +21,13 @@
 				font-size: 22px;
 				color: green;
 			}
-			/*Declare a class, which overwrites a tag, even if placed above*/
+			/*Declare a class, which overwrites a tag, even if placed above because class has higher weight than tag*/
 			
 	</style>
 </head>
 <body>
 
-<h1 class="small">Heading1 - 1</h1>
+<h1 id="first" class="small">Heading1 - 1</h1>
 <h1>Heading1 - 2</h1>
 <h1 class="small">Heading1 - 3</h1>
 <h2>Heading2 - 1</h1>
