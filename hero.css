@@ -16,7 +16,7 @@ header img {
 	/*Rounds image borders*/
 	border-radius: 180px;
 	width: 270px;
-	height: 10px;
+	border: 8px solid pink;
 }
 
 /*<header>
