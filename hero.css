@@ -1,25 +1,26 @@
-header {
+html, body {
+	font-family: Tahoma, serif;
+	/*takes out white gaps around whole page*/
+	margin: 0;
+}
+	header {
 	background-color: #FFF4D9;
 	/*All padding the same*/
-	padding: 40px;
+	padding: 30px;
 	/*Top/bottom 20px, right/left 40px*/
 	/*padding: 20 40px;*/
 	text-align: center;
 }
 
 h1 {
-	font-size: 90px;
+	font-size: 80px;
 	color: gold;
+	padding: 0;
 }
 
 header img {
 	/*Rounds image borders*/
 	border-radius: 180px;
 	width: 270px;
-	border: 8px solid pink;
+	border: 8px solid hotpink;
 }
-
-/*<header>
-			<img src="https://neillsblog.files.wordpress.com/2013/01/belle.png">
-			<h1>Belle</h1>
-		</header>*/
