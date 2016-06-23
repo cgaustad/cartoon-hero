@@ -16,6 +16,7 @@ html, body {
 h1 {
 	font-size: 80px;
 	color: royalblue;
+	margin: 0;
 	padding: 0;
 }
 
@@ -38,9 +39,11 @@ img.big-image {
 }
 
 p.caption {
+	font-family: Tahoma, sans-serif;
 	font-size: 14px;
 	color: darkgrey;
 	font-style: italic;
+	margin: 0;
 }
 
 ul {
