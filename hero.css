@@ -12,11 +12,14 @@ html, body {
 	/*Top/bottom 20px, right/left 40px*/
 	/*padding: 20 40px;*/
 	text-align: center;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 }
 
 h1 {
 	font-size: 80px;
 	color: royalblue;
+	text-shadow: 2px 3px 5px royalblue;
 	margin: 0;
 	padding: 0;
 }
@@ -34,10 +37,12 @@ header img {
 }
 
 .content {
-	max-width: 900px;
-	margin: 10px 30px;
+	max-width: 100%;
+	margin: 0px 50px;
 	background-color: #B3D8FF;
-	padding: 5px 15px;
+	padding: 10px 20px;
+	border-radius: 30px;
+	/*align-content: middle;*/
 	
 }
 
