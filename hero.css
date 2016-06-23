@@ -7,7 +7,7 @@ html, body {
 	header {
 	background-color: #FFF4D9;
 	/*All padding the same*/
-	padding: 30px;
+	padding: 10px 30px;
 	/*Top/bottom 20px, right/left 40px*/
 	/*padding: 20 40px;*/
 	text-align: center;
@@ -30,7 +30,7 @@ header img {
 	max-width: 900px;
 	margin: 10px 30px;
 	background-color: #B3D8FF;
-	padding: 0px 15px;
+	padding: 5px 15px;
 }
 
 img.big-image {
@@ -55,6 +55,14 @@ a {
 }
 
 footer {
-	padding: 40px 20px;
+	margin: 20px 0px;
+	padding: 20px 45px;
 	background-color: snow;
+}
+ul {
+	text-align: center;
+}
+
+footer ul li {
+	display: inline;
 }
